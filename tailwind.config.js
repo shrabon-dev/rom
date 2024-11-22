@@ -7,9 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        padding: {
+          DEFAULT: '1rem', // Default padding for all screens
+           
+        },
+        center: true, // This automatically adds mx-auto to the container
+      },
+      fontFamily: {
+        peckham: ['var(--font-PeckhamPress-sans)'],
+        roboto: ["Roboto","sans-serif"],
+        inter: ["Inter","sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        secondary: "#808080",
+        third: "#35FCFB",
       },
     },
   },
